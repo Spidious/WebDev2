@@ -1,0 +1,25 @@
+<h1>Hello <%= user.firstname %> <%= user.lastname %></h1>
+
+<h2>Add User</h2>
+<form action="/about-submit" method="POST">
+    <div>
+        <div>Name: </div>
+        <input type="text" name="userName" required />
+    </div>
+    <div>
+        <div>Bio:</div><textarea name="userBio" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+
+<h2>Other Users</h2>
+<ul>
+    <% otherUsers.forEach(function(other_user) { %>
+        <li>
+            <div>
+                <%= other_user.name %>
+            </div>
+            bio: <%= other_user.bio %>
+        </li>
+    <% }); %>
+</ul>
