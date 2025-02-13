@@ -1,0 +1,26 @@
+/* #elixirs {
+    border:              thin solid #007e7e;
+    width:               200px;
+  
+    padding:             0px 20px 20px 20px;
+  
+    margin-left:         20px;
+  
+    text-align:          center;
+    
+    background-image:    url("images/cocktail.gif");
+    background-repeat:   repeat-x;
+    line-height:         1;
+} */
+
+@media (max-width: 400px) {
+    #elixirs {
+        float: none;
+        width: 100%;
+    }
+}
+@media (min-width: 401px) {
+    #elixirs {
+        float: right;
+    }
+}
