@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav a {
-    color: black !important; /* Always black */
+    color: black; /* Always black */
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    color: gray !important;
+    color: gray;
 }
 
 /* Media query for screens under 400px */
