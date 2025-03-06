@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { FormsModule } from '@angular/forms';
 import { PostComponent } from './post/post/post.component';
 import { PostListComponent } from './post/post-list/post-list.component';
@@ -25,6 +26,7 @@ import { HeaderComponent } from './head-create/header/header.component';
     FormsModule,
     MatToolbarModule,
     MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
