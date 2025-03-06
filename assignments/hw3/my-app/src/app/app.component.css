@@ -1,0 +1,14 @@
+#main-content app-post {
+  width: 50%;
+}
+
+
+#main-content app-post-list{
+  width: 50%;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%
+}

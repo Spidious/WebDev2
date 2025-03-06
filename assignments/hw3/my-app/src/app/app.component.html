@@ -1,0 +1,5 @@
+<app-header></app-header>
+<div id="main-content">
+  <app-post [postCount]="posts.length" (postCreated)="addPost($event)"></app-post>
+  <app-post-list [posts]="posts"></app-post-list>
+</div>
